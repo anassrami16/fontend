@@ -1,13 +1,26 @@
 .project-container {
   width: 100%;
   display: flex;
+  margin-top: 20px;
 }
 .project-infos-container {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
+  padding-left: 50px;
 }
-.image-conta {
-  width: 200px;
-  height: 200px;
+.image-container {
+  width: 150px;
+  height: 150px;
+}
+.preview-image {
+  width: 150px;
+  height: 150px;
+}
+.small-btn-container {
+  width: 50px;
+}
+
+.flex-end {
+  align-self: flex-end;
 }

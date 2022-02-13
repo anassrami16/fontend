@@ -7,7 +7,10 @@ class Project extends React.Component {
     return (
       <div class="project-container">
         <div class="image-container">
-          <img src="https://m.media-amazon.com/images/I/81wGn2TQJeL._SX425_.jpg" />
+          <img
+            class="preview-image"
+            src="https://m.media-amazon.com/images/I/81wGn2TQJeL._SX425_.jpg"
+          />
         </div>
         <div class="project-infos-container">
           <h1> Title </h1>
@@ -17,9 +20,11 @@ class Project extends React.Component {
             consectetur, neque doloribus, cupiditate numquam dignissimos laborum
             fugiat deleniti? Eum quasi quidem quibusdam.
           </p>
-          <Button variant="contained" href="#text-buttons">
-            Contribuer
-          </Button>
+          
+            <Button variant="contained" href="#text-buttons" className="flex-end">
+              Contribuer
+            </Button>
+          
         </div>
       </div>
     );
