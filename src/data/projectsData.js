@@ -20,6 +20,21 @@ const projectsData = [
     owner: "steelcom",
     image: "https://picsum.photos/id/1003/200/200",
   },
+  {
+    id: 4,
+    title: "testing",
+    desc: "typeface without relying on meaningful content. Lorem ed to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+    owner: "steelcom",
+    image: "https://picsum.photos/id/1043/200/200",
+  }
+  ,
+  {
+    id: 5,
+    title: "Giveit",
+    desc: "without relying on meaningful content. Lorem ed to demonstrate the visual form of a document ,without relying on meaningful content. Lorem ed to demonstrate the visual form of a documented to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+    owner: "steelcom",
+    image: "https://picsum.photos/id/1053/200/200",
+  }
 ];
 
 export default projectsData;
