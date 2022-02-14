@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-
+import Chip from "@mui/material/Chip";
 class Project extends React.Component {
   constructor(props) {
     super();
@@ -15,6 +15,8 @@ class Project extends React.Component {
           </div>
           <div class="project-infos-container">
             <h1> {this.props.title} </h1>
+            <div><Chip label={this.props.owner}  /></div>
+            
             <p>{this.props.desc}</p>
 
             <Button
